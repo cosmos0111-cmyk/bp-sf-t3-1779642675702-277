@@ -1,214 +1,326 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>주식투자 리서치 및 기술 인프라 저널</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-color: #ffffff;
-      --text-color: #0f172a;
-      --accent-color: #3b82f6;
-      --muted-color: #64748b;
-      --border-color: #e2e8f0;
-      --font-swiss: 'Inter', 'Noto Sans KR', sans-serif;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마포 주식투자 백링크 자동화 프로그램 | 프리미엄 PBN 솔루션</title>
+    <meta name="description" content="전문 투자자를 위한 백링크 자동화 프로그램. 마포 기반 주식투자 데이터 기반 PBN 네트워크로 정확한 링크 구축, SERP 상위 랭킹 달성. 010-6279-0862 문의.">
+    <meta name="keywords" content="백링크 자동화, 주식투자 백링크, PBN 프로그램, 마포 백링크, 자동 링크빌딩">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <meta property="og:title" content="마포 주식투자 백링크 자동화 프로그램 | 프리미엄 PBN 솔루션">
+    <meta property="og:description" content="전문 투자자를 위한 백링크 자동화 프로그램. 데이터 기반 PBN 네트워크로 정확한 링크 구축, SERP 상위 랭킹 달성.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sf-t3-1779642675702-277.vercel.app">
+    <meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'%3E%3Crect fill='%23111111' width='1200' height='630'/%3E%3Ctext x='60' y='200' fill='%23ffff00' font-size='80' font-family='monospace' font-weight='bold'%3EBACKLINK%3C/text%3E%3Ctext x='60' y='320' fill='%2300ff41' font-size='60' font-family='monospace'%3EAUTOMATION%3C/text%3E%3C/svg%3E">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="마포 주식투자 백링크 자동화 프로그램 | 프리미엄 PBN 솔루션">
+    <meta name="twitter:description" content="전문 투자자를 위한 백링크 자동화 프로그램. 데이터 기반 PBN 네트워크로 정확한 링크 구축, SERP 상위 랭킹 달성.">
+    <meta name="twitter:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'%3E%3Crect fill='%23111111' width='1200' height='630'/%3E%3Ctext x='60' y='200' fill='%23ffff00' font-size='80' font-family='monospace' font-weight='bold'%3EBACKLINK%3C/text%3E%3Ctext x='60' y='320' fill='%2300ff41' font-size='60' font-family='monospace'%3EAUTOMATION%3C/text%3E%3C/svg%3E">
+    <link rel="canonical" href="https://sf-t3-1779642675702-277.vercel.app">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "마포 주식투자 백링크 자동화 프로그램",
+        "description": "전문 투자자를 위한 백링크 자동화 프로그램. 데이터 기반 PBN 네트워크로 정확한 링크 구축, SERP 상위 랭킹 달성.",
+        "url": "https://sf-t3-1779642675702-277.vercel.app",
+        "telephone": "010-6279-0862",
+        "areaServed": "마포",
+        "genre": "주식투자",
+        "keywords": "백링크 자동화, 주식투자 백링크, PBN 프로그램, 마포 백링크, 자동 링크빌딩"
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      font-family: var(--font-swiss);
-      line-height: 1.7;
-      letter-spacing: -0.01em;
-      padding: 0 24px;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 60px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 24px;
-      margin-bottom: 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-    }
-    .logo {
-      font-size: 1.25rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      text-decoration: none;
-      color: var(--text-color);
-    }
-    nav { display: flex; gap: 20px; }
-    nav a {
-      color: var(--muted-color);
-      text-decoration: none;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      font-weight: 600;
-      transition: color 0.2s ease;
-    }
-    nav a:hover { color: var(--accent-color); }
-    main { padding-bottom: 60px; }
-    .meta-tag {
-      font-size: 0.75rem;
-      font-family: monospace;
-      text-transform: uppercase;
-      color: var(--accent-color);
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      margin-bottom: 16px;
-      display: inline-block;
-    }
-    h1 {
-      font-size: 2.5rem;
-      font-weight: 700;
-      line-height: 1.2;
-      letter-spacing: -0.03em;
-      color: var(--text-color);
-      margin-bottom: 32px;
-    }
-    .content {
-      font-size: 1.05rem;
-      color: var(--text-color);
-      margin-bottom: 48px;
-      font-weight: 300;
-    }
-    .content p { margin-bottom: 20px; }
-    .juice-link {
-      color: var(--accent-color);
-      text-decoration: none;
-      border-bottom: 1px solid var(--accent-color);
-      font-weight: 600;
-      transition: all 0.2s ease;
-    }
-    .juice-link:hover {
-      background-color: rgba(59, 130, 246, 0.05);
-    }
-    .post-grid {
-      border-top: 1px solid var(--border-color);
-      padding-top: 40px;
-      margin-top: 40px;
-    }
-    .grid-title {
-      font-size: 0.85rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--muted-color);
-      margin-bottom: 24px;
-    }
-    .posts-list {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-    .post-card {
-      border: 1px solid var(--border-color);
-      padding: 24px;
-      border-radius: 4px;
-      text-decoration: none;
-      color: var(--text-color);
-      transition: all 0.2s ease;
-    }
-    .post-card:hover {
-      border-color: var(--accent-color);
-      transform: translateY(-2px);
-    }
-    .post-card h3 {
-      font-size: 1.15rem;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-    .post-card p {
-      font-size: 0.9rem;
-      color: var(--muted-color);
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-      margin-top: 60px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      color: var(--muted-color);
-    }
-    footer a { color: var(--muted-color); text-decoration: none; }
-    footer a:hover { color: var(--accent-color); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; align-items: flex-start; gap: 16px; }
-      h1 { font-size: 1.8rem; }
-    }
-  </style>
+    </script>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { font-family: 'Courier New', Courier, 'Liberation Mono', monospace; font-size: 16px; line-height: 1.4; }
+        body { background: #111111; color: #e0e0e0; min-height: 100vh; display: flex; flex-direction: column; }
+        a { color: #00ff41; text-decoration: underline; text-underline-offset: 4px; }
+        a:hover { color: #ffff00; }
+        img, svg { max-width: 100%; height: auto; display: block; }
+        ul, ol { list-style: none; }
+
+        /* Layout */
+        header { background: #111111; border-bottom: 4px solid #ffff00; padding: 24px; position: relative; z-index: 100; }
+        .header-inner { display: flex; justify-content: space-between; align-items: center; max-width: 100%; }
+        .logo { font-size: 1.8rem; font-weight: bold; color: #ffff00; letter-spacing: -1px; text-transform: uppercase; border: 3px solid #00ff41; padding: 8px 16px; transform: skew(-3deg); display: inline-block; }
+        .logo span { color: #00ff41; }
+        nav { display: flex; gap: 16px; align-items: center; }
+        nav a { font-size: 1rem; font-weight: bold; color: #ffff00; text-transform: uppercase; border: 3px solid transparent; padding: 8px 12px; transition: 0.1s; }
+        nav a:hover { border-color: #00ff41; color: #00ff41; background: #111111; }
+        .hamburger { display: none; flex-direction: column; gap: 6px; cursor: pointer; background: none; border: 3px solid #ffff00; padding: 10px 12px; }
+        .hamburger span { display: block; width: 28px; height: 4px; background: #ffff00; }
+        .nav-menu { display: flex; gap: 16px; align-items: center; }
+        .phone-link { font-size: 1.2rem; font-weight: bold; color: #00ff41; border: 3px solid #00ff41; padding: 8px 16px; transform: skew(2deg); display: inline-block; }
+        .phone-link:hover { color: #111111; background: #00ff41; border-color: #00ff41; }
+
+        main { flex: 1; padding: 0; }
+        section { padding: 24px; margin-bottom: 40px; border-bottom: 4px solid #ffff00; position: relative; }
+        section:last-child { border-bottom: none; }
+
+        /* Hero */
+        .hero { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 24px; margin-bottom: 40px; border: 4px solid #00ff41; background: #111111; position: relative; transform: rotate(-0.5deg); }
+        .hero::before { content: ''; position: absolute; top: -10px; left: -10px; width: 100%; height: 100%; border: 3px solid #ffff00; z-index: -1; }
+        .hero-content { display: flex; flex-direction: column; gap: 16px; }
+        .hero h1 { font-size: 3.5rem; font-weight: bold; color: #ffff00; text-transform: uppercase; line-height: 1; letter-spacing: -2px; border-left: 6px solid #00ff41; padding-left: 16px; }
+        .hero h1 span { display: block; color: #00ff41; font-size: 2rem; }
+        .hero p { font-size: 1.2rem; color: #c0c0c0; max-width: 90%; border: 2px dashed #ffff00; padding: 12px; }
+        .hero-cta { display: flex; gap: 16px; margin-top: 12px; }
+        .hero-cta a { font-size: 1.4rem; font-weight: bold; padding: 12px 24px; border: 4px solid #00ff41; color: #00ff41; text-transform: uppercase; text-decoration: none; transform: skew(-2deg); display: inline-block; }
+        .hero-cta a:hover { background: #00ff41; color: #111111; }
+        .hero-visual { display: flex; align-items: center; justify-content: center; background: #1a1a1a; border: 3px solid #ffff00; min-height: 200px; padding: 24px; }
+        .hero-visual svg { width: 100%; height: auto; max-width: 300px; }
+
+        /* Section styles */
+        .section-title { font-size: 2.2rem; font-weight: bold; color: #ffff00; text-transform: uppercase; margin-bottom: 24px; border-bottom: 4px solid #00ff41; padding-bottom: 8px; display: inline-block; transform: skew(-2deg); }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+        .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+        .card { background: #1a1a1a; border: 3px solid #ffff00; padding: 24px; transform: rotate(0.3deg); transition: 0.1s; }
+        .card:nth-child(2n) { transform: rotate(-0.4deg); }
+        .card:hover { border-color: #00ff41; }
+        .card h3 { font-size: 1.4rem; color: #00ff41; margin-bottom: 12px; text-transform: uppercase; }
+        .card p { font-size: 0.95rem; color: #c0c0c0; }
+        .card .stat { font-size: 2rem; font-weight: bold; color: #ffff00; }
+
+        /* UGC Reviews */
+        .review-card { background: #111111; border: 4px solid #00ff41; padding: 24px; margin-bottom: 16px; display: flex; flex-direction: column; gap: 8px; transform: skew(-1deg); }
+        .review-card:nth-child(2n) { transform: skew(1deg); border-color: #ffff00; }
+        .review-header { display: flex; justify-content: space-between; align-items: center; }
+        .review-nick { font-weight: bold; color: #ffff00; font-size: 1.1rem; }
+        .review-date { color: #888; font-size: 0.85rem; }
+        .review-stars { color: #ffff00; font-size: 1.2rem; letter-spacing: 2px; }
+        .review-text { color: #d0d0d0; font-size: 0.95rem; border-left: 3px solid #00ff41; padding-left: 12px; }
+
+        /* Features */
+        .feature-item { border: 3px solid #ffff00; padding: 16px; display: flex; gap: 12px; align-items: flex-start; background: #111111; }
+        .feature-item .icon { font-size: 2rem; color: #00ff41; min-width: 40px; }
+        .feature-item h4 { font-size: 1.2rem; color: #ffff00; text-transform: uppercase; }
+        .feature-item p { font-size: 0.9rem; color: #b0b0b0; }
+
+        /* Footer */
+        footer { background: #111111; border-top: 4px solid #ffff00; padding: 24px; margin-top: 40px; }
+        .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+        .footer-inner p { font-size: 0.9rem; color: #888; }
+        .footer-inner a { color: #00ff41; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            html { font-size: 14px; }
+            .hamburger { display: flex; }
+            .nav-menu { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: #111111; border-bottom: 4px solid #ffff00; padding: 16px 24px; gap: 12px; }
+            .nav-menu.open { display: flex; }
+            .nav-menu a { font-size: 1.2rem; }
+            .hero { grid-template-columns: 1fr; transform: none; }
+            .hero h1 { font-size: 2.5rem; }
+            .hero p { max-width: 100%; }
+            .grid-2, .grid-3 { grid-template-columns: 1fr; }
+            .section-title { font-size: 1.8rem; }
+            .footer-inner { flex-direction: column; text-align: center; }
+            .hero-visual { min-height: 150px; }
+        }
+
+        /* Utility */
+        .text-accent { color: #00ff41; }
+        .text-secondary { color: #ffff00; }
+        .border-accent { border-color: #00ff41; }
+        .border-secondary { border-color: #ffff00; }
+        .mt-16 { margin-top: 16px; }
+        .mb-16 { margin-bottom: 16px; }
+        .full-bleed { width: 100%; }
+        .skew { transform: skew(-2deg); }
+        .noise-bg { background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E"); background-repeat: repeat; pointer-events: none; }
+    </style>
 </head>
 <body>
-  <div class="container">
     <header>
-      <a href="/" class="logo">T3.SWISS</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="meta-tag">SWISS ACCENTED GRID SYSTEM</div>
-      <h1>주식투자 리서치 및 기술 인프라 저널</h1>
-      <div class="content">
-        환영합니다. 본 블로그 저널은 현대적이고 세련된 <strong>주식투자</strong> 분야의 실용 정보와 심도 있는 기술 에세이를 기록하는 전문 아카이브 공간입니다. 아래의 엄선된 아티클 리스트를 통해 다양한 인사이트를 확인하시기 바랍니다.
-      </div>
-      
-      
-      <div class="post-grid">
-        <div class="grid-title">Recent Post Archive</div>
-        <div class="posts-list">
-          
-        <a href="posts/normal-1.html" class="post-card">
-          <h3>주식투자: 주식투자: 배당주 투자로 은퇴 연금 마련하기</h3>
-          <p>불확실성이 극대화되는 거시경제 파동 속에서 안정적이고 마르지 않는 고정 배당 수익을 가져다주는 우량 배당 귀족주 장기 투자는 직장인들에게 가장 든든한 금융 방패입니다. 배당 복리 ...</p>
-        </a>
-      
-
-        <a href="posts/normal-2.html" class="post-card">
-          <h3>주식투자: 주식투자: 코스트 에버리지 우량주 분할 매수</h3>
-          <p>시장 타이밍을 예측해 최저점에 주식을 매수하려는 헛된 시도보다는, 매월 일정한 시기에 정해진 금액만큼 대형 지수 추종 ETF나 우량 기업의 지분을 꾸준히 사 모으는 분할 매수 적립...</p>
-        </a>
-      
-
-        <a href="posts/normal-3.html" class="post-card">
-          <h3>주식투자: 주식투자: 자산 배분 전략과 위험 분산</h3>
-          <p>완벽한 위험 통제를 달성하는 자산 배분의 핵심은 주식뿐만 아니라 안전한 실물 자산 및 대체 자산에 적정한 밸런스 비중을 유지하는 것입니다. 이는 일시적 하락 파동에서도 내 멘탈과 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="post-card">
-          <h3>주식투자 전문가들이 엄선한 백링크 자동화 프로그램 상세 비법 가이드</h3>
-          <p>성공적인 주식투자를 위해 우량 기업의 재무제표와 분기 배당 성향을 꼼꼼하게 연구하다 보면, 리스크의 철저한 분산을 보장하는 것은 오직 변동 없는 오프라인 실물 경제의 든든한 고정 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="post-card">
-          <h3>주식투자 전문가들이 엄선한 백링크 자동화 프로그램 상세 비법 가이드</h3>
-          <p>성공적인 주식투자를 위해 우량 기업의 재무제표와 분기 배당 성향을 꼼꼼하게 연구하다 보면, 리스크의 철저한 분산을 보장하는 것은 오직 변동 없는 오프라인 실물 경제의 든든한 고정 ...</p>
-        </a>
-      
+        <div class="header-inner">
+            <div class="logo">BACKLINK<span>PRO</span></div>
+            <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#features">기능</a>
+                    <a href="#reviews">리뷰</a>
+                    <a href="#pricing">가격</a>
+                    <a href="#contact">문의</a>
+                    <a href="tel:010-6279-0862" class="phone-link">010-6279-0862</a>
+                </div>
+            </nav>
         </div>
-      </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 T3.SWISS. ALL RIGHTS RESERVED.</div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>백링크 자동화 <span>주식투자 PBN</span></h1>
+                <p>데이터 기반 PBN 네트워크로 주식투자 분야 SERP 상위 랭킹을 달성하십시오. 마포 기반 전문 프로그램, 매일 500+ 백링크 자동 구축.</p>
+                <div class="hero-cta">
+                    <a href="tel:010-6279-0862">지금 상담</a>
+                    <a href="#features">더 알아보기</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="0" width="300" height="200" fill="#111111" stroke="#ffff00" stroke-width="4"/>
+                    <text x="20" y="80" fill="#00ff41" font-size="40" font-family="monospace" font-weight="bold" transform="skewX(-10)">PBN</text>
+                    <text x="20" y="130" fill="#ffff00" font-size="28" font-family="monospace" font-weight="bold" transform="skewX(-5)">LINK</text>
+                    <text x="20" y="170" fill="#00ff41" font-size="20" font-family="monospace" font-weight="bold" transform="skewX(5)">AUTOMATION</text>
+                    <line x1="180" y1="20" x2="280" y2="180" stroke="#00ff41" stroke-width="3"/>
+                    <line x1="200" y1="30" x2="290" y2="150" stroke="#ffff00" stroke-width="2"/>
+                </svg>
+            </div>
+        </section>
+
+        <section id="features">
+            <h2 class="section-title">핵심 기능</h2>
+            <div class="grid-3">
+                <div class="feature-item">
+                    <div class="icon">⚡</div>
+                    <div>
+                        <h4>자동 링크 생성</h4>
+                        <p>매일 500~2000개의 고품질 백링크를 자동으로 생성, 주식투자 키워드 타겟팅 정확도 94%.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">📊</div>
+                    <div>
+                        <h4>데이터 대시보드</h4>
+                        <p>실시간 링크 성과 모니터링, 도메인 권위 점수 추적, SERP 변동 분석 제공.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">🔗</div>
+                    <div>
+                        <h4>PBN 네트워크</h4>
+                        <p>마포 기반 150+ 프리미엄 PBN 도메인, 주식투자 특화 콘텐츠 매칭 알고리즘.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">🛡️</div>
+                    <div>
+                        <h4>리스크 관리</h4>
+                        <p>구글 패널티 방지 시스템, 자연스러운 링크 프로필 구축, 히스토리 클리닝 자동화.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">📈</div>
+                    <div>
+                        <h4>SERP 최적화</h4>
+                        <p>롱테일 키워드 타겟팅, 경쟁사 분석 기반 링크 전략, 평균 40% 랭킹 상승.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">📞</div>
+                    <div>
+                        <h4>전문가 지원</h4>
+                        <p>마포 본사 엔지니어링 팀 1:1 컨설팅, 24시간 기술 지원, 맞춤형 전략 수립.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" style="background: #1a1a1a; border: 4px solid #ffff00; padding: 24px;">
+            <h2 class="section-title">성과 데이터</h2>
+            <div class="grid-3">
+                <div class="card" style="text-align: center;">
+                    <div class="stat">4,700+</div>
+                    <p>누적 백링크 구축</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <div class="stat">94%</div>
+                    <p>키워드 타겟 정확도</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <div class="stat">38%</div>
+                    <p>평균 SERP 상승률</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews">
+            <h2 class="section-title">실제 사용자 리뷰</h2>
+            <div class="review-card">
+                <div class="review-header">
+                    <span class="review-nick">주식왕김대리</span>
+                    <span class="review-date">2025-03-12</span>
+                </div>
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">백링크 자동화 프로그램 도입 후 3주 만에 주요 키워드 1페이지 진입. 데이터 기반 타겟팅이 정말 정확합니다. 마포 본사 지원도 빠르고 전문적이에요.</div>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <span class="review-nick">투자하는개미</span>
+                    <span class="review-date">2025-03-08</span>
+                </div>
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">PBN 네트워크 품질이 타사와 비교 불가. 리스크 관리 시스템 덕분에 패널티 걱정 없이 링크빌딩 가능. 주식투자 블로그 트래픽 3배 증가.</div>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <span class="review-nick">마포트레이더</span>
+                    <span class="review-date">2025-02-28</span>
+                </div>
+                <div class="review-stars">★★★★☆</div>
+                <div class="review-text">대시보드 기능이 매우 유용합니다. 실시간으로 링크 상태와 SERP 변화를 확인할 수 있어 전략 수정이 용이. 초기 설정만 하면 자동화 완벽.</div>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <span class="review-nick">주식하는개발자</span>
+                    <span class="review-date">2025-02-15</span>
+                </div>
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">API 연동으로 기존 시스템과 완벽 통합. 커스터마이징 옵션도 다양하고 기술 지원팀 응답 속도가 놀랍습니다. 강력 추천.</div>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <span class="review-nick">서학개미</span>
+                    <span class="review-date">2025-02-01</span>
+                </div>
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">6개월 사용 중인데 꾸준히 성과가 나오고 있습니다. 경쟁사 분석 기능으로 틈새 키워드 발굴에도 효과적. 가격 대비 만족도 최상.</div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <h2 class="section-title">가격 플랜</h2>
+            <div class="grid-3">
+                <div class="card" style="border-color: #00ff41;">
+                    <h3>스타터</h3>
+                    <div class="stat" style="font-size: 2.5rem;">₩297,000</div>
+                    <p style="margin: 12px 0;">월 500개 백링크 · 기본 대시보드 · 이메일 지원</p>
+                    <a href="tel:010-6279-0862" style="display: block; text-align: center; border: 3px solid #00ff41; padding: 12px; color: #00ff41; font-weight: bold; text-decoration: none;">문의하기</a>
+                </div>
+                <div class="card" style="border-color: #ffff00; transform: scale(1.02);">
+                    <h3>프로</h3>
+                    <div class="stat" style="font-size: 2.5rem;">₩497,000</div>
+                    <p style="margin: 12px 0;">월 1500개 백링크 · 고급 분석 · 24시간 지원</p>
+                    <a href="tel:010-6279-0862" style="display: block; text-align: center; border: 3px solid #ffff00; padding: 12px; color: #ffff00; font-weight: bold; text-decoration: none;">문의하기</a>
+                </div>
+                <div class="card" style="border-color: #00ff41;">
+                    <
+
+<!-- PBN Recent Posts Feed Section -->
+<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
+  <div style="max-width:1100px;margin:0 auto">
+    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
+      
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
       <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⚖️ COMPARE</span>
+          <time datetime="2026-06-10">2026-06-10</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">창작한 제목</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">### 포스트 메타정보포스트 기획 테마: 백링크 자동화 프로그램 vs 백링크 자동화 프로그램 비교 — 어디가 더 좋을까? 비교 분석 백링크 지시: 본문 내러티브 속에서 다음 링크를 자연스러운 발견으로 녹여라: mens-esthe.space ## 키워드 컨텍스트이 글의 </p>
       </div>
-    </footer>
+      <a href="posts/compare-001-bjwvg9.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    </div>
   </div>
+</section>
 </body>
 </html>
